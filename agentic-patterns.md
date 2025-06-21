@@ -163,8 +163,14 @@ Multiple agents handle subtasks, coordinating to achieve a goal.
 - **Pros**: Scalable, specialized roles.
 - **Cons**: High coordination overhead.
 
-![Image: Multi-Agent Collaboration Diagram](images/multi-agent-collaboration.png)
-*Note: Download the diagram from the source and save as `images/multi-agent-collaboration.png`.*
+![Image: Multi-Agent Collaboration Diagram](images/multi-agent.png)
+
+## Other Multi agent usecases - 
+[LangGraph MultiAgent](https://blog.futuresmart.ai/multi-agent-system-with-langgraph)
+![Image: LangGraph Multi-Agent Diagram](images/langgraph-multiagent.png)
+
+[The AI SDR Multi-Agent System](https://www.confluent.io/blog/multi-agent-orchestrator-using-flink-and-kafka/)
+![Image: Confluent Multi-Agent Diagram](images/confluent-multiagent.png)
 
 ## Best Practices
 
@@ -182,34 +188,12 @@ These patterns align with LangChain’s agentic workflows:
 - **Planning**: Corresponds to LangChain’s planning agents (e.g., ReAct in `langgraph`).
 - **Multi-Agent Collaboration**: Supported by frameworks like CrewAI or AutoGen with LangChain.
 
-## How to Save to GitHub
+check - https://blog.futuresmart.ai/multi-agent-system-with-langgraph
 
-1. **Create a Repository**:
-   - Log in to [GitHub](https://github.com).
-   - Click “New” to create a repository (e.g., `agentic-patterns`).
-   - Initialize with a README and optional `.gitignore` (e.g., Python template).
 
-2. **Create Directory for Images**:
-   - In your local clone, create an `images` folder: `mkdir images`.
-   - Download images from [philschmid.de/agentic-pattern](https://www.philschmid.de/agentic-pattern) and save them in `images/` with the names specified above.
-
-3. **Save Markdown File**:
-   - Copy the content above into a file named `agentic-patterns.md`.
-   - Save it in the repository’s root or a `docs` folder.
-
-4. **Commit and Push**:
-   ```bash
-   git add agentic-patterns.md images/*
-   git commit -m "Add agentic patterns markdown with image placeholders"
-   git push origin main
-   ```
-
-5. **Verify on GitHub**:
-   - Navigate to your repository on GitHub.
-   - Open `agentic-patterns.md` to ensure text and image placeholders render correctly.
-   - If images don’t display, verify their paths (e.g., `images/sequential-workflow.png`) and upload them via GitHub’s web interface if needed.
 
 ## References
 
 - Schmid, Philipp. “Zero to One: Learning Agentic Patterns.” [philschmid.de/agentic-pattern](https://www.philschmid.de/agentic-pattern), May 4, 2025.[](https://www.philschmid.de/agentic-pattern)
 - For further reading on LangChain workflows, see [langchain.dev](https://langchain.dev).
+- Microsoft Agentic AI see https://microsoft.github.io/ai-agents-for-beginners/05-agentic-rag/
