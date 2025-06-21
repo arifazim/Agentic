@@ -2,7 +2,10 @@
 
 *By Philipp Schmid | Published: May 4, 2025*
 
-This document summarizes common agentic design patterns and workflows for building robust, scalable AI applications, based on the blog post at [philschmid.de/agentic-pattern](https://www.philschmid.de/agentic-pattern). Agentic AI systems dynamically plan and execute tasks, leveraging tools and memory for complex goals. These patterns serve as reusable templates for modular, adaptable AI systems.[](https://www.philschmid.de/agentic-pattern)
+This document summarizes common agentic design patterns and workflows for building robust, scalable AI applications, based on the blog post at [philschmid.de/agentic-pattern](https://www.philschmid.de/agentic-pattern). 
+
+Agentic AI systems dynamically plan and execute tasks, leveraging tools and memory for complex goals. These patterns serve as reusable templates for modular, adaptable AI systems.
+https://microsoft.github.io/ai-agents-for-beginners/05-agentic-rag/
 
 ## Introduction to Agentic AI
 
@@ -16,8 +19,7 @@ AI agents are systems that autonomously plan and execute tasks, often integratin
   - Complex, dynamic tasks requiring adaptability.
   - Avoid for simple, predictable tasks where scripts suffice.
 
-![Image: Diagram of Agentic AI Characteristics](images/agentic-ai-characteristics.png)
-*Note: Download the diagram from [philschmid.de/agentic-pattern](https://www.philschmid.de/agentic-pattern) and save as `images/agentic-ai-characteristics.png`.*
+![Image: Diagram of Agentic AI Characteristics](images/Agentic_AI_Char.png)
 
 ## Why Use Patterns?
 
@@ -47,8 +49,7 @@ A task is broken into a fixed sequence of LLM calls, where each step’s output 
 - **Pros**: Predictable, easy to implement.
 - **Cons**: Rigid, less adaptable to dynamic tasks.
 
-![Image: Sequential Workflow Diagram](images/sequential-workflow.png)
-*Note: Download the diagram from the source and save as `images/sequential-workflow.png`.*
+![Image: Sequential Workflow Diagram](images/images/routing-or-handoff.png)
 
 ### 2. Parallel Workflow
 Multiple LLM calls run simultaneously, aggregating results for a final output.
@@ -68,8 +69,7 @@ Multiple LLM calls run simultaneously, aggregating results for a final output.
 - **Pros**: Faster for independent tasks.
 - **Cons**: Coordination challenges for interdependent results.
 
-![Image: Parallel Workflow Diagram](images/parallel-workflow.png)
-*Note: Download the diagram from the source and save as `images/parallel-workflow.png`.*
+![Image: Parallel Workflow Diagram](images/parallelization.png)
 
 ### 3. Conditional Workflow
 The workflow branches based on LLM output or external conditions.
@@ -86,8 +86,8 @@ The workflow branches based on LLM output or external conditions.
 - **Pros**: Flexible for varied inputs.
 - **Cons**: Requires clear branching logic.
 
-![Image: Conditional Workflow Diagram](images/conditional-workflow.png)
-*Note: Download the diagram from the source and save as `images/conditional-workflow.png`.*
+![Image: Conditional Workflow Diagram](images/agentic-rag-core-loop.png)
+
 
 ## Agentic Patterns
 
@@ -107,7 +107,7 @@ An agent evaluates its output and refines it iteratively (also called Evaluator-
 - **Pros**: Improves quality through feedback.
 - **Cons**: Increases latency, may overcomplicate simple tasks.
 
-![Image: Self-Correction Loop Diagram](images/self-correction-loop.png)
+![Image: Self-Correction Loop Diagram](images/self-correction.png)
 *Note: Download the diagram from the source and save as `images/self-correction-loop.png`.*
 
 ### 2. Tool Use
@@ -128,7 +128,7 @@ The agent calls external tools (e.g., APIs, databases) to enhance capabilities.
 - **Cons**: Requires robust error handling.
 
 ![Image: Tool Use Diagram](images/tool-use.png)
-*Note: Download the diagram from the source and save as `images/tool-use.png`.*
+![Image: Agentic Tool Integration Diagram](images/tool-integration.png)
 
 ### 3. Planning
 The agent breaks down complex tasks into subtasks and executes them strategically.
