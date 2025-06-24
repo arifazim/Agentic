@@ -166,11 +166,22 @@ Multiple agents handle subtasks, coordinating to achieve a goal.
 ![Image: Multi-Agent Collaboration Diagram](images/multi-agent.png)
 
 ## Other Multi agent usecases - 
+
 [LangGraph MultiAgent](https://blog.futuresmart.ai/multi-agent-system-with-langgraph)
 ![Image: LangGraph Multi-Agent Diagram](images/langgraph-multiagent.png)
 
 [The AI SDR Multi-Agent System](https://www.confluent.io/blog/multi-agent-orchestrator-using-flink-and-kafka/)
 ![Image: Confluent Multi-Agent Diagram](images/confluent-multiagent.png)
+
+[Ema Multi-Agent Platform](https://www.ema.co/additional-blogs/addition-blogs/understanding-multi-agent-ai-frameworks)
+
+## AI Agent Infrastructure - 
+
+![Image: AI Agent Stack](images/AI_Agent_Stack_Jan_2025.png)
+
+[AI Agent Infrastructure](https://www.madrona.com/ai-agent-infrastructure-three-layers-tools-data-orchestration/)
+
+[AI Agent Infrastructure](https://www.xenonstack.com/blog/ai-agent-infrastructure-stack)
 
 ## Best Practices
 
