@@ -469,15 +469,15 @@ ai-platform/
 
 | Service | Development | Staging | Production | UI Layer |
 |---------|-------------|----------|------------|----------|
-| MLflow | `http://localhost:5000` | `https://mlflow-staging.myaiapp.com` | `https://mlflow.myaiapp.com` | MLflow UI |
-| Feast | `http://localhost:6565` | `https://feast-staging.myaiapp.com` | `https://feast.myaiapp.com` | Feast UI |
-| Airflow | `http://localhost:8080` | `https://airflow-staging.myaiapp.com` | `https://airflow.myaiapp.com` | Airflow Web UI |
-| FastAPI | `http://localhost:8000` | `https://api-staging.myaiapp.com` | `https://api.myaiapp.com` | Swagger UI |
-| Grafana | `http://localhost:3000` | `https://grafana-staging.myaiapp.com` | `https://grafana.myaiapp.com` | Grafana Dashboard |
-| Kibana | `http://localhost:5601` | `https://kibana-staging.myaiapp.com` | `https://kibana.myaiapp.com` | Kibana Dashboard |
-| Vault | `http://localhost:8200` | `https://vault-staging.myaiapp.com` | `https://vault.myaiapp.com` | Vault UI |
-| Auth0 | `http://localhost:3001` | `https://auth-staging.myaiapp.com` | `https://auth.myaiapp.com` | Auth0 Dashboard |
-| OpenTelemetry | `http://localhost:4318` | `https://otel-staging.myaiapp.com` | `https://otel.myaiapp.com` | Jaeger UI |
+| MLflow | `http://localhost:5000` | `https://mlflow-staging.aiapp.com` | `https://mlflow.aiapp.com` | MLflow UI |
+| Feast | `http://localhost:6565` | `https://feast-staging.aiapp.com` | `https://feast.aiapp.com` | Feast UI |
+| Airflow | `http://localhost:8080` | `https://airflow-staging.aiapp.com` | `https://airflow.aiapp.com` | Airflow Web UI |
+| FastAPI | `http://localhost:8000` | `https://api-staging.aiapp.com` | `https://api.aiapp.com` | Swagger UI |
+| Grafana | `http://localhost:3000` | `https://grafana-staging.aiapp.com` | `https://grafana.aiapp.com` | Grafana Dashboard |
+| Kibana | `http://localhost:5601` | `https://kibana-staging.aiapp.com` | `https://kibana.aiapp.com` | Kibana Dashboard |
+| Vault | `http://localhost:8200` | `https://vault-staging.aiapp.com` | `https://vault.aiapp.com` | Vault UI |
+| Auth0 | `http://localhost:3001` | `https://auth-staging.aiapp.com` | `https://auth.aiapp.com` | Auth0 Dashboard |
+| OpenTelemetry | `http://localhost:4318` | `https://otel-staging.aiapp.com` | `https://otel.aiapp.com` | Jaeger UI |
 
 ---
 

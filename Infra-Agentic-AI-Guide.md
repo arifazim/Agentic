@@ -296,31 +296,31 @@ agentic-ai-platform/
 | Service | Development | Staging | Production | UI Layer |
 |------------|-------------|----------|------------|----------|
 | **Agent Frameworks** | | | | |
-| Agent Orchestrator | `http://localhost:8001` | `https://orchestrator-staging.myagenticaiapp.com` | `https://orchestrator.myagenticaiapp.com` | Agent Dashboard |
-| Vector DB | `http://localhost:6379` | `https://vector-staging.myagenticaiapp.com` | `https://vector.myagenticaiapp.com` | Vector Admin UI |
-| Agent Memory | `http://localhost:6379` | `https://memory-staging.myagenticaiapp.com` | `https://memory.myagenticaiapp.com` | Memory Dashboard |
+| Agent Orchestrator | `http://localhost:8001` | `https://orchestrator-staging.agtapp.com` | `https://orchestrator.agtapp.com` | Agent Dashboard |
+| Vector DB | `http://localhost:6379` | `https://vector-staging.agtapp.com` | `https://vector.agtapp.com` | Vector Admin UI |
+| Agent Memory | `http://localhost:6379` | `https://memory-staging.agtapp.com` | `https://memory.agtapp.com` | Memory Dashboard |
 | **AI Services** | | | | |
-| MLflow Tracking | `http://localhost:5000` | `https://mlflow-staging.myagenticaiapp.com` | `https://mlflow.myagenticaiapp.com` | MLflow UI |
-| DVC Data Versioning | `http://localhost:8000` | `https://dvc-staging.myagenticaiapp.com` | `https://dvc.myagenticaiapp.com` | DVC Web UI |
-| FastAPI Agentic API | `http://localhost:8000` | `https://api-staging.myagenticaiapp.com` | `https://api.myagenticaiapp.com` | Swagger UI |
+| MLflow Tracking | `http://localhost:5000` | `https://mlflow-staging.agtapp.com` | `https://mlflow.agtapp.com` | MLflow UI |
+| DVC Data Versioning | `http://localhost:8000` | `https://dvc-staging.agtapp.com` | `https://dvc.agtapp.com` | DVC Web UI |
+| FastAPI Agentic API | `http://localhost:8000` | `https://api-staging.agtapp.com` | `https://api.agtapp.com` | Swagger UI |
 | **Workflow & Pipelines** | | | | |
-| Airflow Pipelines | `http://localhost:8080` | `https://airflow-staging.myagenticaiapp.com` | `https://airflow.myagenticaiapp.com` | Airflow Web UI |
-| CI/CD Pipeline | `http://localhost:8081` | `https://ci-staging.myagenticaiapp.com` | `https://ci.myagenticaiapp.com` | GitLab/GitHub UI |
+| Airflow Pipelines | `http://localhost:8080` | `https://airflow-staging.agtapp.com` | `https://airflow.agtapp.com` | Airflow Web UI |
+| CI/CD Pipeline | `http://localhost:8081` | `https://ci-staging.agtapp.com` | `https://ci.agtapp.com` | GitLab/GitHub UI |
 | **Monitoring & Observability** | | | | |
-| Grafana | `http://localhost:3000` | `https://grafana-staging.myagenticaiapp.com` | `https://grafana.myagenticaiapp.com` | Grafana Dashboard |
-| Kibana | `http://localhost:5601` | `https://kibana-staging.myagenticaiapp.com` | `https://kibana.myagenticaiapp.com` | Kibana Dashboard |
-| OpenTelemetry | `http://localhost:4318` | `https://otel-staging.myagenticaiapp.com` | `https://otel.myagenticaiapp.com` | Jaeger UI |
+| Grafana | `http://localhost:3000` | `https://grafana-staging.agtapp.com` | `https://grafana.agtapp.com` | Grafana Dashboard |
+| Kibana | `http://localhost:5601` | `https://kibana-staging.agtapp.com` | `https://kibana.agtapp.com` | Kibana Dashboard |
+| OpenTelemetry | `http://localhost:4318` | `https://otel-staging.agtapp.com` | `https://otel.agtapp.com` | Jaeger UI |
 | **Security & Auth** | | | | |
-| Auth0/Keycloak | `http://localhost:3001` | `https://auth-staging.myagenticaiapp.com` | `https://auth.myagenticaiapp.com` | Auth Dashboard |
-| Vault | `http://localhost:8200` | `https://vault-staging.myagenticaiapp.com` | `https://vault.myagenticaiapp.com` | Vault UI |
+| Auth0/Keycloak | `http://localhost:3001` | `https://auth-staging.agtapp.com` | `https://auth.agtapp.com` | Auth Dashboard |
+| Vault | `http://localhost:8200` | `https://vault-staging.agtapp.com` | `https://vault.agtapp.com` | Vault UI |
 
 ---
 
 ## Other AI Agent Infrastructure References - 
 
-[AI Agent Infrastructure](https://www.madrona.com/ai-agent-infrastructure-three-layers-tools-data-orchestration/)
+[Madrona AI Agent Infrastructure](https://www.madrona.com/ai-agent-infrastructure-three-layers-tools-data-orchestration/)
 
-[AI Agent Infrastructure](https://www.xenonstack.com/blog/ai-agent-infrastructure-stack)
+[XenonStack AI Agent Infrastructure](https://www.xenonstack.com/blog/ai-agent-infrastructure-stack)
 
 ## 📁 Best Practices & Final Thoughts
 
