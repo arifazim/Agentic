@@ -299,21 +299,17 @@ agentic-ai-platform/
 | Agent Orchestrator | `http://localhost:8001` | `https://orchestrator-staging.myagenticaiapp.com` | `https://orchestrator.myagenticaiapp.com` | Agent Dashboard |
 | Vector DB | `http://localhost:6379` | `https://vector-staging.myagenticaiapp.com` | `https://vector.myagenticaiapp.com` | Vector Admin UI |
 | Agent Memory | `http://localhost:6379` | `https://memory-staging.myagenticaiapp.com` | `https://memory.myagenticaiapp.com` | Memory Dashboard |
-
 | **AI Services** | | | | |
 | MLflow Tracking | `http://localhost:5000` | `https://mlflow-staging.myagenticaiapp.com` | `https://mlflow.myagenticaiapp.com` | MLflow UI |
 | DVC Data Versioning | `http://localhost:8000` | `https://dvc-staging.myagenticaiapp.com` | `https://dvc.myagenticaiapp.com` | DVC Web UI |
 | FastAPI Agentic API | `http://localhost:8000` | `https://api-staging.myagenticaiapp.com` | `https://api.myagenticaiapp.com` | Swagger UI |
-
 | **Workflow & Pipelines** | | | | |
 | Airflow Pipelines | `http://localhost:8080` | `https://airflow-staging.myagenticaiapp.com` | `https://airflow.myagenticaiapp.com` | Airflow Web UI |
 | CI/CD Pipeline | `http://localhost:8081` | `https://ci-staging.myagenticaiapp.com` | `https://ci.myagenticaiapp.com` | GitLab/GitHub UI |
-
 | **Monitoring & Observability** | | | | |
 | Grafana | `http://localhost:3000` | `https://grafana-staging.myagenticaiapp.com` | `https://grafana.myagenticaiapp.com` | Grafana Dashboard |
 | Kibana | `http://localhost:5601` | `https://kibana-staging.myagenticaiapp.com` | `https://kibana.myagenticaiapp.com` | Kibana Dashboard |
 | OpenTelemetry | `http://localhost:4318` | `https://otel-staging.myagenticaiapp.com` | `https://otel.myagenticaiapp.com` | Jaeger UI |
-
 | **Security & Auth** | | | | |
 | Auth0/Keycloak | `http://localhost:3001` | `https://auth-staging.myagenticaiapp.com` | `https://auth.myagenticaiapp.com` | Auth Dashboard |
 | Vault | `http://localhost:8200` | `https://vault-staging.myagenticaiapp.com` | `https://vault.myagenticaiapp.com` | Vault UI |
