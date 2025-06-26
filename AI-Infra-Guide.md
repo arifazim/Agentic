@@ -1,5 +1,8 @@
 
 ---
+## Production-Grade AI Infrastructure Platform
+
+A guide to build an AI infrastructure platform that is production-grade, scalable, and integrates all popular tools and stacks requires careful planning and architecture. 
 
 ## 🛠️ Tools & Stacks Used
 
@@ -24,6 +27,67 @@
 | Docs              | MkDocs / Swagger UI                 |
 
 ---
+
+## 🧱 Folder Structure (Monorepo Style)
+
+ ```bash
+ai-platform/
+├── infra/
+│   ├── terraform/
+│   │   └── main.tf
+│   ├── kubernetes/
+│   │   ├── deployments/
+│   │   ├── services/
+│   │   └── helm-charts/
+│   └── scripts/
+│       └── setup.sh
+│
+├── backend/
+│   ├── api/
+│   │   └── main.py
+│   ├── models/
+│   │   └── model.py
+│   ├── utils/
+│   │   └── helpers.py
+│   ├── Dockerfile
+│   └── requirements.txt
+│
+├── mlflow/
+│   ├── tracking_server/
+│   └── docker-compose.yaml
+│
+├── feast/
+│   ├── feature_store.yaml
+│   └── feature_repo/
+│       └── features.py
+│
+├── dvc/
+│   └── dvc.yaml
+│
+├── airflow/
+│   └── dags/
+│       └── data_pipeline.py
+│
+├── monitoring/
+│   ├── prometheus/
+│   ├── grafana/
+│   └── alertmanager/
+│
+├── logging/
+│   ├── elasticsearch/
+│   ├── logstash/
+│   └── kibana/
+│
+├── ci-cd/
+│   └── .github/workflows/deploy.yml
+│
+├── docs/
+│   └── mkdocs.yml
+│
+├── .gitignore
+├── README.md
+└── Makefile
+```
 
 ## 📦 Step-by-Step Implementation Guide
 
