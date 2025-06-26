@@ -313,6 +313,12 @@ agentic-ai-platform/
 
 ---
 
+## Other AI Agent Infrastructure References - 
+
+[AI Agent Infrastructure](https://www.madrona.com/ai-agent-infrastructure-three-layers-tools-data-orchestration/)
+
+[AI Agent Infrastructure](https://www.xenonstack.com/blog/ai-agent-infrastructure-stack)
+
 ## 📁 Best Practices & Final Thoughts
 
 - **Environment Parity:** Keep dev, staging, and prod as similar as possible.
