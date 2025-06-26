@@ -2,7 +2,12 @@
 ---
 ## Production-Grade AI Infrastructure Platform
 
-A guide to build an AI infrastructure platform that is production-grade, scalable, and integrates all popular tools and stacks requires careful planning and architecture. 
+![Image: AI Infra Stack](images/AI-Infra-market-map-min.png)
+
+**About the Diagram:**  
+The above stack diagram visualizes the modular layers of a modern AI platform. This guide will walk you through each layer, mapping the visual architecture to concrete tools, best practices, and implementation steps for dev, staging, and production environments.
+
+Let's go through this comprehensive guide to build an AI infrastructure platform that is production-grade, scalable, and integrates all popular tools and stacks requires careful planning and architecture. 
 
 ## 🛠️ Tools & Stacks Used
 

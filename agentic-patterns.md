@@ -49,7 +49,7 @@ A task is broken into a fixed sequence of LLM calls, where each step’s output 
 - **Pros**: Predictable, easy to implement.
 - **Cons**: Rigid, less adaptable to dynamic tasks.
 
-![Image: Sequential Workflow Diagram](images/images/routing-or-handoff.png)
+![Image: Sequential Workflow Diagram](images/routing-or-handoff.png)
 
 ### 2. Parallel Workflow
 Multiple LLM calls run simultaneously, aggregating results for a final output.

@@ -1,6 +1,6 @@
 ## Agentic AI Infrastructure Platform Guide
 
-![Image: AI Agent Stack](images/AI_Agent_Stack_Jan_2025.png)
+![Image: Agentic AI Stack](images/AI_Agent_Stack_Jan_2025.png)
 
 **About the Diagram:**  
 The above stack diagram visualizes the modular layers of a modern agentic AI platform. This guide will walk you through each layer, mapping the visual architecture to concrete tools, best practices, and implementation steps for dev, staging, and production environments.
